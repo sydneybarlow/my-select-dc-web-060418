@@ -5,6 +5,7 @@ def my_select(collection)
       if yield(collection[i])
         new_collection << collection[i]
       i += 2
+      end
     end
   return new_collection
 end

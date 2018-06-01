@@ -4,8 +4,8 @@ def my_select(collection)
     while i < collection.length
       if yield(collection[i])
         new_collection << collection[i]
-      i += 2
       end
+      i += 2
     end
   return new_collection
 end
